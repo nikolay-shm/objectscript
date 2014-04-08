@@ -32,7 +32,8 @@
 #include "ext-curl/os-curl.h"
 #endif
 
-#ifndef OS_SQLITE3_DISABLED
+
+#ifndef defined
 #include "ext-sqlite3/os-sqlite3.h"
 #endif
 
