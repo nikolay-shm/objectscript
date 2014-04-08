@@ -85,8 +85,6 @@
     <ClCompile Include="..\..\src\ext-iconv\os-iconv.cpp" />
     <ClCompile Include="..\..\src\ext-odbo\os-odbo.cpp" />
     <ClCompile Include="..\..\src\ext-regexp\os-regexp.cpp" />
-    <ClCompile Include="..\..\src\ext-sqlite3\os-sqlite3.cpp" />
-    <ClCompile Include="..\..\src\ext-sqlite3\sqlite3.c" />
     <ClCompile Include="..\..\src\ext-url\os-url.cpp" />
     <ClCompile Include="..\..\src\ext-zlib\os-zlib.cpp" />
     <ClCompile Include="..\..\src\ext-zlib\zlib\adler32.c" />
@@ -776,8 +774,6 @@
     <ClInclude Include="..\..\src\ext-hashlib\sha\sha.h" />
     <ClInclude Include="..\..\src\ext-odbo\os-odbo.h" />
     <ClInclude Include="..\..\src\ext-regexp\os-regexp.h" />
-    <ClInclude Include="..\..\src\ext-sqlite3\os-sqlite3.h" />
-    <ClInclude Include="..\..\src\ext-sqlite3\sqlite3.h" />
     <ClInclude Include="..\..\src\ext-zlib\os-zlib.h" />
     <ClInclude Include="..\..\src\os-heap-old.h" />
     <ClInclude Include="..\..\src\os-heap.h" />

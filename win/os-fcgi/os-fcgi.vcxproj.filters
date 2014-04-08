@@ -935,12 +935,6 @@
     <ClCompile Include="..\..\src\ext-regexp\os-regexp.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\ext-sqlite3\os-sqlite3.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\ext-sqlite3\sqlite3.c">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\src\ext-url\os-url.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>

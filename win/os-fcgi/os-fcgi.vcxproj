@@ -121,7 +121,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;SUPPORT_UTF;_ITERATOR_DEBUG_LEVEL=2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;OS_SQLITE3_DISABLED;SUPPORT_UTF;_ITERATOR_DEBUG_LEVEL=2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -191,7 +191,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;OS_SQLITE3_DISABLED;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -509,8 +509,6 @@
     <ClCompile Include="..\..\src\ext-odbo\os-odbo.cpp" />
     <ClCompile Include="..\..\src\ext-process\os-process.cpp" />
     <ClCompile Include="..\..\src\ext-regexp\os-regexp.cpp" />
-    <ClCompile Include="..\..\src\ext-sqlite3\os-sqlite3.cpp" />
-    <ClCompile Include="..\..\src\ext-sqlite3\sqlite3.c" />
     <ClCompile Include="..\..\src\ext-url\os-url.cpp" />
     <ClCompile Include="..\..\src\ext-zlib\os-zlib.cpp" />
     <ClCompile Include="..\..\src\ext-zlib\zlib\adler32.c" />
